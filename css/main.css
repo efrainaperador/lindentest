@@ -1,0 +1,143 @@
+body{
+	text-align: center;
+}
+
+.wrapper{
+	width: 700px;
+	margin: 0 auto;
+	border: solid 1px #000;
+	overflow: hidden;
+}
+
+.wrapper > div{
+	overflow: hidden;
+}
+
+.col-2{
+	width: 50%;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	text-align: left;
+	padding: 20px;
+}
+
+label{
+	width: 40px;
+	display: inline-block;
+	line-height: 21px;
+}
+
+input[type="number"]{
+	width: 40px;
+}
+
+input[type="number"]:first-child{
+	clear: right;
+}
+
+#contenedorGrafico{
+	border-top: solid 1px #000;
+}
+
+.fraction strong{
+    line-height: 2em;
+}
+
+.fraction > span{
+	line-height: 2em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.fraction > span span{
+	line-height: 1em;
+	display: block;
+}
+
+.fraction > span span:first-child{
+	padding-bottom: 2px;
+	border-bottom: 1px solid #000;
+}
+
+#canvas{
+	width: 600px;
+	height: 600px;
+}
+
+ul{
+	text-align: left;
+	padding: 0;
+}
+
+ul li{
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+button{
+	width: 60px;
+	height: 60px;
+	background: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 70% 70%;
+}
+
+.col-1{
+	width: 25%;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+}
+
+.col-3{
+	width: 75%;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+}
+
+.wrapper.big{
+	width: 1024px;
+}
+
+.big p{
+	border: solid 1px #000;
+	margin: -1px;
+
+}
+
+.add-selector, .edit-selector{
+	border-bottom: solid 1px #000;
+}
+
+button.rect-button{
+	background-image: url("../img/rect-bg.png");
+}
+
+button.triangle-button{
+	background-image: url("../img/triangle-bg.png");
+}
+
+button.circle-button{
+	background-image: url("../img/circle-bg.png");
+}
+
+button.edit-button{
+	background-image: url("../img/edit-bg.png");
+}
+
+button.delete-button{
+	background-image: url("../img/delete-bg.png");
+}
+
+button.active{
+	background-color: #AAA;
+}
+
+.selector{
+	height: 600px;
+	border-right: solid 1px #000;
+}

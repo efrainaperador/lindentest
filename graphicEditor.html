@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graphic Edit Linden Test</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<script type="text/javascript" src="./js/vendor/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="./js/vendor/fabric.js"></script>
+</head>
+<body>
+<div class="wrapper big">
+	<div class="col-1 selector">
+		<div class="add-selector">
+			<p>ADD</p>
+			<ul>
+				<li><button data-shape="Rect" class="rect-button"></button></li>
+				<li><button data-shape="Triangle" class="triangle-button"></button></li>
+				<li><button data-shape="Circle" class="circle-button"></button></li>
+			</ul>
+		</div>
+		<div class="edit-selector">
+			<p>EDIT</p>
+			<ul>
+				<li><button data-action="delete"  class="delete-button"></button></li>
+				<li><button data-action="edit"  class="edit-button active"></button></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-3">
+		<canvas id="canvas" width="600" height="600"></canvas>
+	</div>
+	<script type="text/javascript" src="./js/graph.js"></script>
+</div>
+</body>
+</html>
